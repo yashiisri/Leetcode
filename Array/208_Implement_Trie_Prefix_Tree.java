@@ -4,15 +4,15 @@ class Trie {
     public Trie() {
         root = new Node();
     }
-    
+
     public void insert(String word) {
         root.insert(word, 0);
     }
-    
+
     public boolean search(String word) {
         return root.search(word, 0);
     }
-    
+
     public boolean startsWith(String prefix) {
         return root.startsWith(prefix, 0);
     }
