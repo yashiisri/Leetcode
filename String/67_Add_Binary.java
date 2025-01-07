@@ -11,11 +11,6 @@ class Solution {
             result.append(total%2);
             carry=total/2;
         }
-
-
         return result.reverse().toString();
-
-
-        
     }
 }
