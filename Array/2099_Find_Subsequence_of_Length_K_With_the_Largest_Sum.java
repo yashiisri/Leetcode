@@ -14,7 +14,7 @@ class Solution {
         int result[]=new int[k];
         int index=0;
         // Select values from the original array, preserving order
-        for(int num:nums){
+        for(int num:nums){                                                                                          
             if(num>threshold)
             {
                 result[index++]=num;
